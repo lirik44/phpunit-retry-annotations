@@ -27,7 +27,12 @@ trait RetryAnnotationTrait
             $retries = $annotations['class']['retryAttempts'][0];
         }
 
-        return $this->parseRetryAttemptsAnnotation($retries);
+        if (LINK_SELENIUM == 'http://localhost:4444/wd/hub')
+        {
+            return 0;
+        } else {
+            return $this->parseRetryAttemptsAnnotation($retries);
+        }
     }
 
     private function parseRetryAttemptsAnnotation(string $retries): int
