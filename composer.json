@@ -1,15 +1,15 @@
 {
-    "name": "bshaffer/phpunit-retry-annotations",
-    "description": "Traits for retrying test methods and classes in PHPUnit",
-    "keywords": ["test", "retry", "phpunit"],
-    "homepage": "https://github.com/bshaffer/phpunit-retry",
+    "name": "lirik44/phpunit-retry-annotations",
+    "description": "Traits for retrying test methods and classes in PHPUnit, modified for selenium php-webdriver",
+    "keywords": ["test", "retry", "phpunit", "php-webdriver"],
+    "homepage": "https://github.com/lirik44/phpunit-retry-annotations",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Brent Shaffer",
+            "name": "Kirill Chikaliuk",
             "email": "bshafs@gmail.com",
-            "homepage": "https://brentertainment.com"
+            "homepage": "https://github.com/lirik44"
         }
     ],
     "require": {
