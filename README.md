@@ -7,7 +7,7 @@ Traits for retrying test methods and classes in PHPUnit.
 ```
 composer require --dev lirik44/phpunit-retry-annotations
 ```
-
+You should customise your SELENIUM_HUB url in Project.
 ## Configuring retries
 
 ### Retry using a specified number of retries

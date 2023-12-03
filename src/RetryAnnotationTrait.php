@@ -27,7 +27,7 @@ trait RetryAnnotationTrait
             $retries = $annotations['class']['retryAttempts'][0];
         }
 
-        if (LINK_SELENIUM == 'http://localhost:4444/wd/hub')
+        if (SELENIUM_URL == 'http://localhost:4444/wd/hub')
         {
             return 0;
         } else {
